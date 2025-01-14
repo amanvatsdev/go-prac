@@ -10,7 +10,6 @@ func main() {
 	for multiplier := 1; multiplier <= 10; multiplier++ {
 		fmt.Println(N, "x", multiplier, "=", N*multiplier)
 		fmt.Println("---------------------")
-		
 	}
 
 }
