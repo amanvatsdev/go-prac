@@ -1,58 +1,32 @@
-	package main
+package main
 
-	import (
-		"fmt"
-	
-	)
+import (
+	"fmt"
+)
 
-	func processNumbers(numbers []int, callback func(int) (int,bool)) []int {
-		var ProcessedNumbers []int
+func processNumbers(numbers []int, callback func(int) (int, bool)) []int {
+	var ProcessedNumbers []int
 
-		for _,num:=range numbers{
-			if val,ok:=callback(num);ok{
-			ProcessedNumbers=append(ProcessedNumbers,val)
-			}
+	for _, num := range numbers {
+		if val, ok := callback(num); ok {
+			ProcessedNumbers = append(ProcessedNumbers, val)
 		}
-		return ProcessedNumbers
 	}
+	return ProcessedNumbers
+}
 
-	func main() {
-		numbers := []int{2, 3, 4, 5}
+func main() {
+	numbers := []int{2, 3, 4, 5}
 
-		SquareEvenNumbers := func(num int) (int,bool) {
-			
-			if num%2 == 0	{
-				return num*num,true
-			}
-			return 0,false
+	SquareEvenNumbers := func(num int) (int, bool) {
+
+		if num%2 == 0 {
+			return num * num, true
 		}
-		fmt.Println(processNumbers(numbers,SquareEvenNumbers))
+		return 0, false
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	fmt.Println(processNumbers(numbers, SquareEvenNumbers))
+}
 
 // func filterNames (names []string,callback func(string)bool)[]string{
 // 	var filterednames []string
