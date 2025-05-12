@@ -44,7 +44,8 @@ func main() {
 	default:
 		fmt.Println("Choose the valid option")
 	}
-	
+	//R53282682== user id
+	//5085461187312773== debit card
 
 	// a, b := 1, 2
 	// fmt.Println(a,b)
