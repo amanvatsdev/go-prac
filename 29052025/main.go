@@ -12,13 +12,9 @@ type Student struct {
 	Stream string  `json:"stream"`
 }
 
-/*TODO
+// Another to encode JSON
 
-
-Another to encode JSON
-*/
-
-func TakeInput() Student{
+func TakeInput() Student {
 
 	// Use one function to take input
 	var name string
@@ -69,15 +65,13 @@ func EncodeJson(x Student) {
 		fmt.Println("json error")
 		return
 	}
-	fmt.Printf("Student Info(Json):\n%v\n\n",string(json))
+	fmt.Printf("Student Info(Json):\n%v\n\n", string(json))
 }
 
-
 func main() {
-	
-Student1:=TakeInput()
-EncodeJson(Student1)
-GradeCalculater(Student1.Marks)
 
+	Student1 := TakeInput()
+	EncodeJson(Student1)
+	GradeCalculater(Student1.Marks)
 
 }
