@@ -11,6 +11,6 @@ func main() {
 	name := "Aman"
 
 	fmt.Println(name)
-	fmt.Println("Keyword:--","--")
-	fmt.Println("Mouse:",Mouse)
+	fmt.Println("Keyword:--", "--")
+	fmt.Println("Mouse:", Mouse)
 }
