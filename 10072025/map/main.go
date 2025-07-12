@@ -39,9 +39,9 @@ func main() {
 
 
 	a:=map[string][]string{
-		"Aman":[]string{"Shaken,not stirred","martinis","fast cars"},
-		"MoneyPenny_Jenny":[]string{"intelligence","literature","computer Science"},
-		"No_dr":[]string{"Cats","Icecream","Sunset"},
+		"Aman":{"Shaken,not stirred","martinis","fast cars"},
+		"MoneyPenny_Jenny":{"intelligence","literature","computer Science"},
+		"No_dr":{"Cats","Icecream","Sunset"},
 	}
 
 	for i,v:=range a{
