@@ -1,2 +1,4 @@
 github.com/amanvatsdev/Puppy v0.0.0-20250606064457-f1e44373399b h1:PQWY2UEgtIgQXMyQIoxbzkUDmdMOLYwkzwletoowZ/Q=
 github.com/amanvatsdev/Puppy v0.0.0-20250606064457-f1e44373399b/go.mod h1:KiAbdtgVZcIg70D3b7txEJAiJpEc3KG78piIsdSaDD0=
+golang.org/x/exp v0.0.0-20250819193227-8b4c13bb791b h1:DXr+pvt3nC887026GRP39Ej11UATqWDmWuS99x26cD0=
+golang.org/x/exp v0.0.0-20250819193227-8b4c13bb791b/go.mod h1:4QTo5u+SEIbbKW1RacMZq1YEfOBqeXa19JeshGi+zc4=
